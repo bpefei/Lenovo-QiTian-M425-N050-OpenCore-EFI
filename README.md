@@ -16,3 +16,5 @@
 本机BIOS里没有CFG Lock的关闭选项，请自行搜索教程关闭CFG Lock
 
 EFI文件夹是OpenCore 0.6.6版本的，EFI74-with-theme文件夹是升级到目前最新版0.7.4版本的，还加了个"赛博朋克"主题。
+
+Customize/USBPorts.kext是定制好的USB驱动，如果需要升级到11.3版本以上，请使用USBPorts.kext替换EFI/OC/Kexts目录下的USBInjectAll.kext，并且使用Customize/config.plist替换EFI/OC目录下的config.plist
