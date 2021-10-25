@@ -23,7 +23,7 @@
 | :--------------: | :----------------------------------------------------------: |
 |      EFI-66      | 最初版本，OpenCore 0.6.6。其实只是在“macOS Big Sur 11.2 20D64 Installer for OpenCore 0.6.6 and WEPE”镜像自带的EFI上添加了网卡和声卡支持 |
 |      EFI-74      | 和EFI-66配置完全相同，但是OpenCore升级到了0.7.4版，添加了引导界面主题“赛博朋克” |
-| EFI-74-Customize | 定制了USB驱动，使用定制的USBPort.kext替换了USBInjectAll.kext，并且在config.plist中作了相应修改。 |
+| EFI-74-Customize | 定制了USB驱动，使用定制的USBPort.kext替换了USBInjectAll.kext，并且在config.plist中作了相应修改 |
 |    EFI-latest    | 定制了核显（UHD 630）驱动，可以60帧输出了，且系统各种缩放动画不再卡顿 |
 
 如果使用最新的EFI不能完成黑苹果安装的话，不妨降低系统版本到macOS Big Sur 11.2，并尝试更旧的EFI版本……
